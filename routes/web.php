@@ -53,3 +53,5 @@ Route::get('/named/route/test', function () {
     return "<a href='" . route('named-route') ."'>This is a redirects to a route</a>";
 });
 
+Route::get('/contact_us', 'ContactController');
+
