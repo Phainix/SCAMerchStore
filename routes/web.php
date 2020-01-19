@@ -55,3 +55,7 @@ Route::get('/named/route/test', function () {
 
 Route::get('/contact_us', 'ContactController');
 
+Route::get('/test/middleware', function () {
+    return 'Testing the middleware functionality';
+})->middleware('role');
+
