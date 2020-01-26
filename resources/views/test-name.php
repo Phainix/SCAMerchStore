@@ -7,5 +7,6 @@
 </head>
 <body>
     <p>This is a test page controlled by PHP</p>
+    <p>Your name is <?= $name ?></p>
 </body>
 </html>

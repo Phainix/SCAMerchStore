@@ -59,3 +59,11 @@ Route::get('/test/middleware', function () {
     return 'Testing the middleware functionality';
 })->middleware('role');
 
+
+Route::get('/test/view', function () {
+    return view('test');
+});
+
+Route::get('/test/view/{name}', function ($name) {
+    return view('test-name', ['name' => $name]);
+});
