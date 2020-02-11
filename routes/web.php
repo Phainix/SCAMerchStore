@@ -15,10 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Basic Route
-Route::get('/home', function() {
-    return 'This is the home page!!!';
-});
+// Home Route
+Route::get('/home', 'HomeController@index');
 
 // Required Param Route
 Route::get('/basic/{name}', function($name) {
@@ -66,4 +64,12 @@ Route::get('/test/view', function () {
 
 Route::get('/test/view/{name}', function ($name) {
     return view('test-name', ['name' => $name]);
+});
+
+Route::get('/test/view/blade/child', function () {
+    return view('child');
+});
+
+Route::get('/test/view/blade/{name}', function ($name) {
+    return view('test-blade', ['name' => $name]);
 });
