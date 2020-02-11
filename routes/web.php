@@ -15,9 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Home Route
-Route::get('/home', 'HomeController@index');
-
 // Required Param Route
 Route::get('/basic/{name}', function($name) {
     return "Welcome home $name, its glad to have you here";
