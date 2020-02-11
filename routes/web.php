@@ -70,3 +70,9 @@ Route::get('/test/view/blade/child', function () {
 Route::get('/test/view/blade/{name}', function ($name) {
     return view('test-blade', ['name' => $name]);
 });
+
+Auth::routes();
+
+Route::get('/auth/home', 'HomeController@auth')->name('auth-home');
+
+Route::get('/home', 'HomeController@index')->name('home');
