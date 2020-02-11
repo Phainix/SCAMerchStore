@@ -47,6 +47,9 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapWebRoutes();
 
         //
+
+        $this->mapStoreRoutes();
+
         $this->mapProductRoutes();
 
         $this->mapCartRoutes();
@@ -91,5 +94,11 @@ class RouteServiceProvider extends ServiceProvider
         Route::middleware('web')
              ->namespace($this->namespace)
              ->group(base_path('routes/cart.php'));
+    }
+
+    protected function mapStoreRoutes() {
+        Route::middleware('web')
+             ->namespace($this->namespace)
+             ->group(base_path('routes/store.php'));
     }
 }
