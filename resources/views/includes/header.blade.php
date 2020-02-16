@@ -5,16 +5,16 @@
     </div>
     <!-- Logo -->
     <div class="logo">
-        <a href="index.html"><img src="{{ asset('assets/img/core-img/logo.png') }}" alt=""></a>
+        <a href="index.html"><img src="{{ asset('assets/img/core-img/logo_sca.jpg') }}" alt=""></a>
     </div>
     <!-- Amado Nav -->
     <nav class="amado-nav">
         <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="product-details.html">Product</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="checkout.html">Checkout</a></li>
+            <li class="active"><a href="{{ route('home') }}">Home</a></li>
+            <li><a href="{{ route('frontend.store') }}">Shop</a></li>
+            <li><a href="{{ route('frontend.product') }}">Product</a></li>
+            <li><a href="/cart">Cart</a></li>
+            <li><a href="{{ route('frontend.checkout') }}">Checkout</a></li>
         </ul>
     </nav>
     <!-- Button Group -->
@@ -24,8 +24,12 @@
     </div>
     <!-- Cart Menu -->
     <div class="cart-fav-search mb-100">
-        <a href="#" class="fav-nav"><img src="{{ asset('assets/img/core-img/favorites.png') }}" alt=""> Account</a>
-        <a href="cart.html" class="cart-nav"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""> Cart <span>(0)</span></a>
+        @guest
+            <a href="{{ route('frontend.login') }}" class="fav-nav"><img src="{{ asset('assets/img/core-img/avatar.svg') }}" alt="" class="icon"> Account</a>
+        @else
+            <a href="#" class="fav-nav"><img src="{{ asset('assets/img/core-img/avatar.svg') }}" alt="" class="icon"> Account</a>
+        @endguest
+        <a href="{{ route('frontend.store') }}" class="cart-nav"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""> Cart <span>(0)</span></a>
         <a href="#" class="fav-nav"><img src="{{ asset('assets/img/core-img/favorites.png') }}" alt=""> Favourite</a>
         <a href="#" class="search-nav"><img src="{{ asset('assets/img/core-img/search.png') }}" alt=""> Search</a>
     </div>

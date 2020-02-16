@@ -14,4 +14,8 @@ class StoreController extends Controller
     public function shop() {
         return view('frontend.shop');
     }
+
+    public function checkout() {
+        return view('frontend.checkout');
+    }
 }

@@ -75,4 +75,3 @@ Auth::routes();
 
 Route::get('/auth/home', 'HomeController@auth')->name('auth-home');
 
-Route::get('/home', 'HomeController@index')->name('home');

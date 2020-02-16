@@ -11,3 +11,14 @@
     /* ---------------------------------------
     ##### - PLACE YOUR CUSTOM CSS HERE - #####
     --------------------------------------- */
+    .form-control.is-invalid {
+        background: #ffd2d2 !important;
+    }
+
+    .main-content-wrapper .header-area .logo {
+        margin-bottom: 50px;
+    }
+    .icon {
+        width: 21px;
+        height: 21px;
+    }
