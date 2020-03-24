@@ -10,11 +10,11 @@
     <!-- Amado Nav -->
     <nav class="amado-nav">
         <ul>
-            <li class="active"><a href="{{ route('home') }}">Home</a></li>
-            <li><a href="{{ route('frontend.store') }}">Shop</a></li>
-            <li><a href="{{ route('frontend.product') }}">Product</a></li>
-            <li><a href="/cart">Cart</a></li>
-            <li><a href="{{ route('frontend.checkout') }}">Checkout</a></li>
+            <li class="{{ Route::current()->getName() == 'home' ? 'active' : '' }}"><a href="{{ route('home') }}">Home</a></li>
+            <li class="{{ Route::current()->getName() == 'frontend.store' ? 'active' : '' }}"><a href="{{ route('frontend.store') }}">Shop</a></li>
+            <li class="{{ Route::current()->getName() == 'frontend.product' ? 'active' : '' }}"><a href="{{ route('frontend.product') }}">Product</a></li>
+            <li class="{{ Request::is('cart') ? 'active' : '' }}"><a href="/cart">Cart</a></li>
+            <li class="{{ Route::current()->getName() == 'frontend.checkout' ? 'active' : '' }}"><a href="{{ route('frontend.checkout') }}">Checkout</a></li>
         </ul>
     </nav>
     <!-- Button Group -->
@@ -29,7 +29,7 @@
         @else
             <a href="#" class="fav-nav"><img src="{{ asset('assets/img/core-img/avatar.svg') }}" alt="" class="icon"> Account</a>
         @endguest
-        <a href="{{ route('frontend.store') }}" class="cart-nav"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""> Cart <span>(0)</span></a>
+        <!-- <a href="{{ route('frontend.store') }}" class="cart-nav"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""> Cart <span>(0)</span></a> -->
         <a href="#" class="fav-nav"><img src="{{ asset('assets/img/core-img/favorites.png') }}" alt=""> Favourite</a>
         <a href="#" class="search-nav"><img src="{{ asset('assets/img/core-img/search.png') }}" alt=""> Search</a>
     </div>
