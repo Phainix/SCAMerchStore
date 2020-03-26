@@ -15,3 +15,5 @@ Route::prefix('products')->group(function () {
     // Redirect route
     Route::redirect('/all', '/products/list');
 });
+
+Route::get('/product', 'ProductController@productDetail')->name('frontend.product');

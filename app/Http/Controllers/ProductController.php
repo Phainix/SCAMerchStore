@@ -32,4 +32,8 @@ class ProductController extends Controller
         endif;
         return response()->json($response);
     }
+
+    public function productDetail() {
+        return view('frontend.product');
+    }
 }

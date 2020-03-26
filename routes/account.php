@@ -11,10 +11,6 @@
 |
 */
 
-// Home Route
-Route::get('/home', 'StoreController@index')->name('home');
-
-// Shop Route
-Route::get('/shop', 'StoreController@shop')->name('frontend.store');
-
-Route::get('/checkout', 'StoreController@checkout')->name('frontend.checkout');
+Route::prefix('account')->group(function() {
+    Route::get('/login', 'AccountController@login')->name('frontend.login');
+});
