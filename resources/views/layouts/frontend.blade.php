@@ -12,11 +12,11 @@
     <title>She Code Africa Merch Store | Home</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="{{ asset('assets/img/core-img/favicon.ico') }}">
+    <link rel="icon" href="{{ secure_asset('assets/img/core-img/favicon.ico') }}">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/core-style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/core-style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/style.css') }}">
 
 </head>
 
@@ -32,7 +32,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="index.html"><img src="{{ asset('assets/img/core-img/logo_sca.jpg') }}" alt=""></a>
+                <a href="index.html"><img src="{{ secure_asset('assets/img/core-img/logo_sca.jpg') }}" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -60,15 +60,15 @@
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
-    <script src="{{ asset('assets/js/jquery/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- Plugins js -->
-    <script src="{{ asset('assets/js/plugins.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="{{ asset('assets/js/active.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/active.js') }}"></script>
 
 </body>
 

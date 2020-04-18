@@ -5,7 +5,7 @@
     </div>
     <!-- Logo -->
     <div class="logo">
-        <a href="index.html"><img src="{{ asset('assets/img/core-img/logo_sca.jpg') }}" alt=""></a>
+        <a href="index.html"><img src="{{ secure_asset('assets/img/core-img/logo_sca.jpg') }}" alt=""></a>
     </div>
     <!-- Amado Nav -->
     <nav class="amado-nav">
@@ -25,13 +25,13 @@
     <!-- Cart Menu -->
     <div class="cart-fav-search mb-100">
         @guest
-            <a href="{{ route('frontend.login') }}" class="fav-nav"><img src="{{ asset('assets/img/core-img/avatar.svg') }}" alt="" class="icon"> Account</a>
+            <a href="{{ route('frontend.login') }}" class="fav-nav"><img src="{{ secure_asset('assets/img/core-img/avatar.svg') }}" alt="" class="icon"> Account</a>
         @else
-            <a href="#" class="fav-nav"><img src="{{ asset('assets/img/core-img/avatar.svg') }}" alt="" class="icon"> Account</a>
+            <a href="#" class="fav-nav"><img src="{{ secure_asset('assets/img/core-img/avatar.svg') }}" alt="" class="icon"> Account</a>
         @endguest
-        <!-- <a href="{{ route('frontend.store') }}" class="cart-nav"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""> Cart <span>(0)</span></a> -->
-        <a href="#" class="fav-nav"><img src="{{ asset('assets/img/core-img/favorites.png') }}" alt=""> Favourite</a>
-        <a href="#" class="search-nav"><img src="{{ asset('assets/img/core-img/search.png') }}" alt=""> Search</a>
+        <!-- <a href="{{ route('frontend.store') }}" class="cart-nav"><img src="{{ secure_asset('assets/img/core-img/cart.png') }}" alt=""> Cart <span>(0)</span></a> -->
+        <a href="#" class="fav-nav"><img src="{{ secure_asset('assets/img/core-img/favorites.png') }}" alt=""> Favourite</a>
+        <a href="#" class="search-nav"><img src="{{ secure_asset('assets/img/core-img/search.png') }}" alt=""> Search</a>
     </div>
     <!-- Social Button -->
     <div class="social-info d-flex justify-content-between">

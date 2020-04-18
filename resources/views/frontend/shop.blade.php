@@ -144,9 +144,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="{{ asset('assets/img/product-img/product1.jpg') }}" alt="">
+                                <img src="{{ secure_asset('assets/img/product-img/product1.jpg') }}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="{{ asset('assets/img/product-img/product2.jpg') }}" alt="">
+                                <img class="hover-img" src="{{ secure_asset('assets/img/product-img/product2.jpg') }}" alt="">
                             </div>
 
                             <!-- Product Description -->
@@ -169,7 +169,7 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
                                     <div class="cart">
-                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""></a>
+                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ secure_asset('assets/img/core-img/cart.png') }}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -181,9 +181,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="{{ asset('assets/img/product-img/product2.jpg') }}" alt="">
+                                <img src="{{ secure_asset('assets/img/product-img/product2.jpg') }}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="{{ asset('assets/img/product-img/product3.jpg') }}" alt="">
+                                <img class="hover-img" src="{{ secure_asset('assets/img/product-img/product3.jpg') }}" alt="">
                             </div>
 
                             <!-- Product Description -->
@@ -206,7 +206,7 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
                                     <div class="cart">
-                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""></a>
+                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ secure_asset('assets/img/core-img/cart.png') }}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -218,9 +218,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="{{ asset('assets/img/product-img/product3.jpg') }}" alt="">
+                                <img src="{{ secure_asset('assets/img/product-img/product3.jpg') }}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="{{ asset('assets/img/product-img/product4.jpg') }}" alt="">
+                                <img class="hover-img" src="{{ secure_asset('assets/img/product-img/product4.jpg') }}" alt="">
                             </div>
 
                             <!-- Product Description -->
@@ -243,7 +243,7 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
                                     <div class="cart">
-                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""></a>
+                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ secure_asset('assets/img/core-img/cart.png') }}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -255,9 +255,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="{{ asset('assets/img/product-img/product4.jpg') }}" alt="">
+                                <img src="{{ secure_asset('assets/img/product-img/product4.jpg') }}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="{{ asset('assets/img/product-img/product5.jpg') }}" alt="">
+                                <img class="hover-img" src="{{ secure_asset('assets/img/product-img/product5.jpg') }}" alt="">
                             </div>
 
                             <!-- Product Description -->
@@ -280,7 +280,7 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
                                     <div class="cart">
-                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""></a>
+                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ secure_asset('assets/img/core-img/cart.png') }}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -292,9 +292,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="{{ asset('assets/img/product-img/product5.jpg') }}" alt="">
+                                <img src="{{ secure_asset('assets/img/product-img/product5.jpg') }}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="{{ asset('assets/img/product-img/product6.jpg') }}" alt="">
+                                <img class="hover-img" src="{{ secure_asset('assets/img/product-img/product6.jpg') }}" alt="">
                             </div>
 
                             <!-- Product Description -->
@@ -317,7 +317,7 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
                                     <div class="cart">
-                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""></a>
+                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ secure_asset('assets/img/core-img/cart.png') }}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -329,9 +329,9 @@
                         <div class="single-product-wrapper">
                             <!-- Product Image -->
                             <div class="product-img">
-                                <img src="{{ asset('assets/img/product-img/product6.jpg') }}" alt="">
+                                <img src="{{ secure_asset('assets/img/product-img/product6.jpg') }}" alt="">
                                 <!-- Hover Thumb -->
-                                <img class="hover-img" src="{{ asset('assets/img/product-img/product1.jpg') }}" alt="">
+                                <img class="hover-img" src="{{ secure_asset('assets/img/product-img/product1.jpg') }}" alt="">
                             </div>
 
                             <!-- Product Description -->
@@ -354,7 +354,7 @@
                                         <i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
                                     <div class="cart">
-                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ asset('assets/img/core-img/cart.png') }}" alt=""></a>
+                                        <a href="cart.html" data-toggle="tooltip" data-placement="left" title="Add to Cart"><img src="{{ secure_asset('assets/img/core-img/cart.png') }}" alt=""></a>
                                     </div>
                                 </div>
                             </div>

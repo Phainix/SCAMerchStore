@@ -24,7 +24,7 @@
                             <tbody>
                                 <tr>
                                     <td class="cart_product_img">
-                                        <a href="#"><img src="{{ asset('assets/img/bg-img/cart1.jpg') }}" alt="Product"></a>
+                                        <a href="#"><img src="{{ secure_asset('assets/img/bg-img/cart1.jpg') }}" alt="Product"></a>
                                     </td>
                                     <td class="cart_product_desc">
                                         <h5>White Modern Chair</h5>
@@ -45,7 +45,7 @@
                                 </tr>
                                 <tr>
                                     <td class="cart_product_img">
-                                        <a href="#"><img src="{{ asset('assets/img/bg-img/cart2.jpg') }}" alt="Product"></a>
+                                        <a href="#"><img src="{{ secure_asset('assets/img/bg-img/cart2.jpg') }}" alt="Product"></a>
                                     </td>
                                     <td class="cart_product_desc">
                                         <h5>Minimal Plant Pot</h5>
@@ -66,7 +66,7 @@
                                 </tr>
                                 <tr>
                                     <td class="cart_product_img">
-                                        <a href="#"><img src="{{ asset('assets/img/bg-img/cart3.jpg') }}" alt="Product"></a>
+                                        <a href="#"><img src="{{ secure_asset('assets/img/bg-img/cart3.jpg') }}" alt="Product"></a>
                                     </td>
                                     <td class="cart_product_desc">
                                         <h5>Minimal Plant Pot</h5>
